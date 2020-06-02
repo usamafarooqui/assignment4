@@ -1,0 +1,241 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: black !important;
+    position: fixed;
+    width: 100%;
+}
+.nav-link{
+    margin: 2px 42px !important;
+    color: white !important;
+    font-weight: bold;
+   padding-left: 28px;
+}
+.nav-link:hover{
+    background-color: white;
+    color: black !important;
+    border-radius: 20px;
+    font-weight: bolder !important;
+    padding: 10px 37px;
+
+}
+.active-page{
+    background-color: white;
+    color: black !important;
+    border-radius: 20px;
+    font-weight: bolder !important;
+
+}
+.navbar-brand img{
+    width:80px ;
+    height: 40px;
+}
+.navbar-toggler{
+    background-color: red !important;
+}
+
+/* HOME SECTION */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    /* padding: 3px 200px; */
+    justify-content: center;
+    align-items: center;
+    
+}
+#home::before{
+    content: "";
+    background-image: url("images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+   color:white;
+   text-align: center;
+   display: flex;
+
+}
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    display: flex
+}
+.home-heading{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.wel{
+    display: flex;
+    flex-wrap: wrap;
+}
+.far{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* SERVICES CONTAINER */
+.services-container{
+    margin-top: 0px;
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+#services{
+    margin: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+
+   
+   
+}
+#services .box{
+
+  border: 2px solid brown;
+  padding: 34;
+  margin: 3px 6px;
+  border-radius: 28px;
+  background-color: rgb(221, 220, 220);  
+  margin-bottom: 100px;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+#services .box img{
+    height: 50px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+
+
+}
+#services .box p{
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* CLIENT-SECTION */
+#client-section{
+   margin-top: -34px;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.client-heading{
+    margin-top: 30px;
+}
+#clients img{
+    height: 331px;
+    width: 328px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url("images/bg1.jpg");
+    width: 100%;
+    height: 83%;
+    z-index:-1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: o.4;
+}
+
+
+
+
+
+/* MEMBERSHIP FORM */
+#membership{
+    margin-top: 0px;
+    background-color:rgb(51, 50, 50);
+    position: relative;
+}
+#membership::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+/* FORM STYLING */
+#form-box input{
+    width: 100%;
+    padding: 0.5rem;
+}
+#form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#form-box form{
+    width: 40%;
+
+}
+#form-box label{
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+
+
+
+/* UTILITY CLASSES */
+.h-primary{
+
+    font-size: 2.8rem;
+    padding: 12px;
+    color:white !important;
+}
+.h-secondary{
+
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+  
+}
+footer{
+   
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
+.container-fluid{
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    background-color: grey;
+   
+}

@@ -1,0 +1,137 @@
+/* NAVAGATION BAR */
+.navbar{
+    background-color: black !important;
+    width: 100%;
+   
+}
+.nav-link{
+    margin: 2px 42px !important;
+    color: white !important;
+    font-weight: bold;
+   padding-left: 28px;
+}
+.nav-link:hover{
+    background-color: white;
+    color: black !important;
+    border-radius: 20px;
+    font-weight: bolder !important;
+    padding: 10px 37px;
+
+}
+.active-page{
+    background-color: white;
+    color: black !important;
+    border-radius: 20px;
+    font-weight: bolder !important;
+
+}
+.navbar-brand img{
+    width:80px ;
+    height: 40px;
+}
+.navbar-toggler{
+    background-color: red !important;
+}
+/* CROSEL */
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+.crousel-div{
+    margin-top: 100px;
+}
+/* maincard */
+
+.maincard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:rgb(204, 201, 201) ;
+    /* background-color: black; */
+
+ 
+
+}
+.newitems{
+   
+  
+}
+/* SUBCARD */
+.subcard img{
+
+    width: 300px;
+    height: 400px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.subcard{
+    margin: 40px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+/* MENU */
+.menu{
+    margin-top: 50px;
+    background-color: rgb(68, 63, 63);
+}
+.card{
+    
+    margin: 20px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    font-weight: bolder;
+}
+.menu1{
+    margin: 20px 20px 20px 20px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+/* UTILITY CLASSES */
+.h-primary{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.heading{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.5;
+} 
+.btn:hover{
+    background-color:black;
+    color: white;
+    font-weight:bold;
+    font-size: large;
+    width: 200px;
+    height: auto;
+    
+
+}  
+.center{
+    text-align: center;
+  
+}
+footer{
+   
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}

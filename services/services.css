@@ -1,0 +1,121 @@
+/* CSS RESET */
+
+
+.navbar{
+    background-color: black !important;
+    position: fixed;
+    width: 100%;
+}
+.nav-link{
+    margin: 2px 42px !important;
+    color: white !important;
+    font-weight: bold;
+   padding-left: 28px;
+}
+.nav-link:hover{
+    background-color: white;
+    color: black !important;
+    border-radius: 20px;
+    font-weight: bolder !important;
+    padding: 10px 37px;
+
+}
+.active-page{
+    background-color: white;
+    color: black !important;
+    border-radius: 20px;
+    font-weight: bolder !important;
+
+}
+.navbar-brand img{
+    width:80px ;
+    height: 40px;
+}
+.navbar-toggler{
+    background-color: red !important;
+}
+/* CATERING */
+
+.catering::before{
+    background-image: url("../images/catering.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+}
+.catering{
+    background-color: rgb(88, 78, 78);
+    display: flex;
+    flex-direction: column;
+
+
+}
+.cater{
+    margin-top: 68px;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 480px) {
+    img {
+      
+        width:100%;
+        height: 400px;
+       
+    }
+}
+@media screen and (max-width: 480px) {
+    p {
+      
+       font-size: 15px;
+       
+    }
+}
+
+
+
+
+
+
+
+
+  img{
+      width: 100%;
+      height: 500px;
+  }
+
+  /* FOOTER */
+
+
+  .footer{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: black;
+      color: white;
+
+  }
+   
+
+  
+
+
+
+
+
+
+
+
+
+/* UTILITY CLASSES   */
+p{
+    font-size: 20px;
+    color: white;
+    
+}
+h1{
+    font-size:35px ;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
